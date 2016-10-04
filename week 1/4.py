@@ -1,7 +1,5 @@
 # Define a function that computes the length of a given list or string.
-# (without
-
-# using any built in function)
+# (without using any built in function)
 
 
 def strlen(string):

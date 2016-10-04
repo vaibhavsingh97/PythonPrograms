@@ -4,8 +4,6 @@
 
 
 def reverse(string):
-    list(string)
-    for i in range(len(string)):
-        return string[::-1]
+    return string[::-1]
 
 print(reverse("i am testing"))

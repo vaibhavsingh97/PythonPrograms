@@ -14,8 +14,6 @@ def is_pallindromeString(string):
 
 
 def is_reverse(string):
-    list(string)
-    for i in range(len(string)):
-        return string[::-1]
+    return string[::-1]
 
 print(is_pallindromeString("radar"))
