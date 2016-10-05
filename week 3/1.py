@@ -7,8 +7,8 @@ database = {}
 
 def showmenu():
     while(True):
-        print("**Python Login Application**")
-        print("1. Login\n2. Signup\n3. Exit")
+        print "**Python Login Application**"
+        print "1. Login\n2. Signup\n3. Exit"
         choice = input("Enter Choice:")
         if choice == 1:
             olduser()
@@ -37,9 +37,6 @@ def newuser():
             break
     password = input("Enter password: ")
     database[username] = password
-
-
-def admin():
 
 
 if __name__ == '__main__':
