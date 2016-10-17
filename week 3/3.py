@@ -4,7 +4,7 @@ a list of names and employee numbers. Your interface should allow a sorted outpu
 
 by name) that displays employee names followed by their employee numbers"""
 
-dict = {1:"a",2:"c",3:"b"}
+dict = {1: "a", 2: "c", 3: "b"}
 while True:
     print "+++++Dictionary Application+++++"
     print "1. Enter employee name and employee number\n2. Display employee name and employee number\n3. Exit"
